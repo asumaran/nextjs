@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { getLayout } from "../components/DefaultLayout";
 
 const Title = styled.h1`
   color: #444;
@@ -6,5 +7,7 @@ const Title = styled.h1`
 `;
 
 export default function Home() {
-  return <Title>Hello world!</Title>;
+  return <Title>Home</Title>;
 }
+
+Home.getLayout = getLayout;
