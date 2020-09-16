@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { getLayout } from "../components/DefaultLayout";
 
 const Title = styled.h1`
-  color: #444;
+  color: #555;
   font-family: sans-serif;
 `;
 
